@@ -93,7 +93,6 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
-    opacity: 0.5; 
 }
 
 .b-parallax {
@@ -155,7 +154,7 @@ a:hover {
 }
 
 .d-bloc .navbar-toggle .icon-bar {
-    background: rgb(99, 99, 99);
+    background: rgb(255, 255, 255, 1);
 }
 
 .d-bloc .btn-wire,
@@ -343,7 +342,7 @@ a:hover {
 
 .navbar-toggle {
     margin: 10px 10px 0 0;
-    border: 1px;
+    border: 0px;
 }
 
 .navbar-toggle:hover {
@@ -522,6 +521,8 @@ button {
     right: 20px;
     opacity: 0;
     z-index: 500;
+    opacity: 0;
+    background-color: #323030;
     transition: all .3s ease-in-out;
 }
 
@@ -784,7 +785,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -794,6 +795,9 @@ h4 {
 
 .ltc-white {
     color: #FFFFFF!important;
+}
+.size {
+    font-size:x-large;
 }
 
 .ltc-white:hover {
@@ -876,10 +880,7 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -888,8 +889,7 @@ h4 {
     .bloc-fill-screen .fill-bloc-top-edge,
     .bloc-fill-screen .fill-bloc-bottom-edge {
         padding: 0 20px;
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
+        
     }
 }
 
