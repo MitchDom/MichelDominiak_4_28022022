@@ -91,8 +91,8 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
-    opacity: 0.5;
+    background: url("images-compressed.avif/texture-paper_1.webp");
+    opacity: 1;
     background-size: 280px 280px;
 }
 
@@ -134,7 +134,7 @@ a:hover {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: rgba(255, 255, 255, .6);
+    color: #613c2B;
 }
 
 .d-bloc .a-btn:hover,
@@ -712,6 +712,10 @@ p {
     font-weight: 700;
 }
 
+#bloc-5-cta > h2 {
+    color: white;
+}
+
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
@@ -749,7 +753,8 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #613c2B!important;
+    font-weight: bold;
 }
 
 .portfolio-thumb {
@@ -784,11 +789,15 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color:#f8c2a9 ;
+}
+
+.bloc-5-cta h2 {
+    color: white!important;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
